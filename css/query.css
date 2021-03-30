@@ -1,0 +1,39 @@
+@media(max-width:1200px){
+    .container{
+      display: block;
+    }
+    .sub{
+        margin: 5% 0px;
+        font-size: 16px;
+        text-align: center;
+    }
+    ul{
+        margin: 5% 40%;
+    }
+    
+}
+
+
+
+@media(max-width:1023px){
+    ul{
+        margin: 5% 38%;
+    }
+    
+}
+
+@media(max-width:767px){
+    .main img{
+        margin: auto;
+        transform: scale(0.8);
+    }
+    .sub{
+        padding: 0 28%;
+        font-size: 20px;
+    }
+    ul{
+        margin: 5% 37%;
+    }
+    
+}
+
