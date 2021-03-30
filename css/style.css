@@ -11,7 +11,6 @@ body{
     text-rendering: optimizeLegibility;
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
-    height: 100vh;
     background-image: url(../images/bg-desktop.svg);
     background-color: #674bb1;
     background-position: center;
