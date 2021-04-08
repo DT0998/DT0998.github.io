@@ -9,27 +9,27 @@
         font-size: 20px;
         text-align: center;
     }
-  ul{
-      margin: 0 40%;
-  }
-    
+    ul{
+        margin: 0 40%;
+    }
 }
 
 
 
 @media(max-width:1023px){
-    ul{
-        margin: 0 38%;
-    }
+.sub{
+    font-size: 16px;
+}
     
 }
 
 @media(max-width:767px){
     .main{
-        transform: scale(0.8);
+        margin-left: -20%;
+        transform: scale(0.6);
     }
     ul{
-        margin: 0 37%;
+        margin: 0 30%;
     }
     
 }
@@ -37,12 +37,28 @@
 
 @media(max-width:480px){
     .main{
-        margin-left: -55px;
-        transform: scale(0.4);
+        margin-left: -23%;
+        transform: scale(0.6);
+    }
+    .sub{
+        font-size: 12px;
     }
     ul{
-        margin: 0 25%;
+        margin: 0 28%;
     }
     
+}
+
+@media (max-width:667px) and (min-width:375px){
+    .main{
+        margin-left: -36%;
+        transform: scale(0.5);
+    }
+    .sub{
+        font-size: 12px;
+    }
+    ul{
+        margin: 0 20%;
+    }
 }
 

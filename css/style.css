@@ -7,7 +7,7 @@ html{
     font-size: 16px;
 }
 body{
-    margin: 0 auto;
+    padding: 0 20px;
     text-rendering: optimizeLegibility;
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
@@ -21,7 +21,7 @@ body{
 /* logo */
 .logo{
     cursor: pointer;
-    margin: 50px 50px;
+    margin: 50px 0px;
 }
 /* section  */
 .container{
@@ -31,13 +31,7 @@ body{
   grid-template-columns: 1fr 1fr;
   
 }
-.main{
-    margin: 0 50px;
-}
-.main img{
-    width: 700px;
-    height: 500px;
-}
+
 
 
 .sub{
