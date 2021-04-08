@@ -23,6 +23,9 @@ body{
     cursor: pointer;
     margin: 50px 0px;
 }
+.social-list{
+    margin: 20px 0;
+}
 /* section  */
 .container{
     font-weight: 700;

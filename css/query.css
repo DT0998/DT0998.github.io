@@ -9,18 +9,24 @@
         font-size: 20px;
         text-align: center;
     }
-    ul{
-        margin: 0 40%;
+    .social-list{
+        margin: 0 34%;
+     display: block;
     }
 }
 
 
 
 @media(max-width:1023px){
+    .main{
+        transform: scale(1);
+    }
 .sub{
     font-size: 16px;
 }
-    
+    .social-list{
+        margin: 0 33%;
+    }
 }
 
 @media(max-width:767px){
@@ -28,8 +34,8 @@
         margin-left: -20%;
         transform: scale(0.6);
     }
-    ul{
-        margin: 0 30%;
+    .social-list{
+        margin: 0 16%;
     }
     
 }
@@ -37,28 +43,38 @@
 
 @media(max-width:480px){
     .main{
-        margin-left: -23%;
-        transform: scale(0.6);
+        margin-left: -30%;
+        transform: scale(0.4);
     }
     .sub{
         font-size: 12px;
     }
-    ul{
-        margin: 0 28%;
+    .social-list{
+        margin: 0 60%;
     }
     
 }
 
-@media (max-width:667px) and (min-width:375px){
+@media (max-width:375px){
     .main{
-        margin-left: -36%;
-        transform: scale(0.5);
+        margin-left: -30%;
+        transform: scale(0.4);
     }
     .sub{
         font-size: 12px;
     }
-    ul{
-        margin: 0 20%;
-    }
+ 
 }
+@media(max-width:320px){
+    .main{
+        transform: scale(0.3);
+    }
+    .sub{
+        font-size: 10px;
+    }
+    
+}
+
+
+
 
