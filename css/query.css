@@ -2,14 +2,16 @@
     .container{
       display: block;
     }
-    .sub{
-        margin: 5% 0px;
-        font-size: 16px;
+    .main{
         text-align: center;
     }
-    ul{
-        margin: 5% 40%;
+    .sub{
+        font-size: 20px;
+        text-align: center;
     }
+  ul{
+      margin: 0 40%;
+  }
     
 }
 
@@ -17,23 +19,29 @@
 
 @media(max-width:1023px){
     ul{
-        margin: 5% 38%;
+        margin: 0 38%;
     }
     
 }
 
 @media(max-width:767px){
-    .main img{
-        margin: auto;
+    .main{
         transform: scale(0.8);
     }
-    .sub{
-        padding: 0 28%;
-        font-size: 20px;
-    }
     ul{
-        margin: 5% 37%;
+        margin: 0 37%;
     }
     
 }
 
+
+@media(max-width:480px){
+    .main{
+        margin-left: -55px;
+        transform: scale(0.6);
+    }
+    ul{
+        margin: 0 30%;
+    }
+    
+}

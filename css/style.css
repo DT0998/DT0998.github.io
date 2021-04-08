@@ -31,8 +31,10 @@ body{
   grid-template-columns: 1fr 1fr;
   
 }
+.main{
+    margin: 0 50px;
+}
 .main img{
-    margin: 0px 55px;
     width: 700px;
     height: 500px;
 }
@@ -40,7 +42,7 @@ body{
 
 .sub{
     font-weight: 300;
-    margin: 35px 0px;
+    margin: 35px 40px;
    text-transform: capitalize;
 }
 .article{
